@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="align">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" / class="image">
+            <h1 class="heading">MY Projects</h1>
+            <p class="paragraph"> There are few projects related to before we can</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image2 margin" onclick="display('sectionpart1')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image2 margin" onclick="display('sectionpart2')" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image2 margin" onclick="display('sectionpart3')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image2 margin" onclick="display('sectionpart4')" />
+        </div>
+    </div>
+    <div id="sectionpart1">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="advanced-technologies-card">
+                <h1 class="advanced-technologies-title">Advanced Technologies</h1>
+                <p class="advanced-technologies-description">
+                    Machinery and equipment developed from the application of scientific
+                    knowledge.
+                </p>
+                <button class="learn-more-button">Learn more</button>
+                <button class="save-draft-button" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionpart2">
+        <div class="background-image">
+            <div>
+                <h1 class="main-heading text-align">Celebrate diwali with your friends</h1>
+            </div>
+            <div class="secondbg-image">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="first-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="image3" />
+                        <h1 class="card-content">Diwali Air Baloon</h1>
+                        <p class="card-content2">Rs 369</p>
+                    </div>
+                    <div class="first-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="image3" />
+                        <h1 class="card-content">Diwali lamp</h1>
+                        <p class="card-content2">Rs 50</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="first-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="image3" />
+                        <h1 class="card-content">sparklers</h1>
+                        <p class="card-content2">Rs 150</p>
+                    </div>
+                    <div class="first-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="image3" />
+                        <h1 class="card-content">Fire cracker</h1>
+                        <p class="card-content2">Rs 200</p>
+                    </div>
+                </div>
+                <button class="btn btn-danger" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpart3">
+        <div class="bgs-container d-flex flex-column justify-content-end">
+            <div class="advanced-technologies-card">
+                <h1 class="advanced-technologies-title">Advanced Technologies</h1>
+                <p class="advanced-technologies-description">
+                    Machinery and equipment developed from the application of scientific
+                    knowledge.
+                </p>
+                <button class="learn-more-button">Learn more</button>
+                <button class="save-draft-button" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpart4">
+        <div class="bgg-container d-flex flex-column justify-content-end">
+            <div class="news-card">
+                <p class="news-category">NEWS OF THE DAY</p>
+                <h1 class="news-title">
+                    All educational institutions in Assam to reopen from November 2
+                </h1>
+                <p class="news-description">
+                    Uttar Pradesh's Gautam Buddh Nagar recorded 107 new Covid-19 cases on
+                    Saturday, pushing the district's infection tally to 15,803, official
+                    data showed. The number of active cases came down further to 1,384
+                    from 1,477 on Friday and 1,523 on Thursday, according to the data
+                    released by the UP Health Department for a 24-hour period.
+                </p>
+                <button class="button" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+
+
+</html>
